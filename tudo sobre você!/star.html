@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>star</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <style>
+        body{
+            background-color: rgba(0, 0, 0, 0.893);
+        }
+        main{
+            background-image:url(img/Default_Draw_a_scene_that_depicts_the_atmosphere_of_a_small_to_1.jpg);
+           background-repeat: no-repeat;
+           background-size: cover;
+            width: 60%;
+            margin-left: 20%;
+            height: 100vh;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .titulo{
+            font-size: 30px;
+            font-weight: 700;
+        }
+        header{
+            display: flex;
+            height:90px ;
+            padding: 25px;
+            background-color: rgba(255, 0, 76, 0.405);
+            backdrop-filter: blur(10px);
+        }
+        .icons{
+            margin-left: 18%;
+            font-size: 25px;
+            margin-top: 5px;
+            color: rgb(193, 193, 193);
+            display: flex;
+        }
+        #icone1,#icone2,#icone3,#icone4,#icone5{
+            margin-left: 52px;
+            transition: .2s;
+        }
+        #icone3{
+            color: yellow;
+            font-size: 26px;
+            transform: translateY(-5px);
+            border-bottom: 2px solid white;
+            padding-bottom:6px ;
+        }
+        #icone1:hover{
+            font-size: 26px;
+            transform: translateY(-5px);
+            color:  rgb(219, 53, 53);
+            border-bottom: 2px solid white;
+            padding-bottom:6px ;
+        }
+        #icone2:hover{
+            font-size: 26px;
+            transform: translateY(-5px);
+            color: rgb(255, 45, 80);
+            border-bottom: 2px solid white;
+            padding-bottom:6px ;
+        }
+        #icone3:hover{
+            font-size: 26px;
+            transform: translateY(-5px);
+            color: yellow;
+            border-bottom: 2px solid white;
+            padding-bottom:6px ;
+        }
+        #icone4:hover{
+            font-size: 26px;
+            transform: translateY(-5px);
+            color: red;
+            border-bottom: 2px solid white;
+            padding-bottom:6px ;
+        }
+        #icone5:hover{
+            font-size: 26px;
+            transform: translateY(-5px);
+            color: rgb(231, 62, 214);
+            border-bottom: 2px solid white;
+            padding-bottom:6px ;
+        }
+       
+        .textos{
+            border: 1px solid rgb(199, 183, 183);
+            border-radius: 10px;
+            background-color: rgba(0, 0, 0, 0.099);
+            backdrop-filter: blur(10px);
+            color: rgb(210, 208, 208);
+            position: absolute;
+            top: 55%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            font-size: 25px;
+            padding: 30px;
+        }
+       a{
+        text-decoration: none;
+        color:  rgb(193, 193, 193);
+       }
+       .estrelas{
+        color: yellow;
+        font-size: 30px;
+        padding: 20px;
+        position: absolute;
+        top: 170px;
+        opacity: 0;
+        animation: star 4s ease-in-out infinite;
+       }
+       @keyframes star{
+        0%{
+            opacity: 1;
+        }
+        50%{
+            opacity: 0;
+            transform: translateX(270px)
+
+        }
+        100%{
+            opacity: 1;
+        }
+       }
+       #ccon{
+        margin-left: 40px;
+       }
+       
+    </style>
+</head>
+<body>
+    <main>
+        <header>
+            <i class="titulo" style="color: white;">Tudo</i> <i class="titulo"  style="color:white">Sobre</i> <i class="titulo"  style="color: white">Você!</i>
+        
+            <div class="icons">
+                <a href="first.html"><i id="icone1"  class="fa-solid fa-house"></i></a>
+                <a href="messenger.html"><i id="icone2" class="fa-solid fa-envelope"></i></a>
+                <a href="star.html"><i id="icone3" id="icone3" class="fa-solid fa-star"></i></a>
+                <a href="heart.html"><i id="icone4" class="fa-solid fa-heart"></i></a>
+                
+            </div>
+        </header>
+    
+    
+        <div class="estrelas">
+            <i id="ccon1"  class="fa-solid fa-star"></i>
+            <i id="ccon"  class="fa-solid fa-star"></i>
+            <i id="ccon"  class="fa-solid fa-star"></i>
+            <i id="ccon"  class="fa-solid fa-star"></i>
+            <i id="ccon"  class="fa-solid fa-star"></i>
+            <i id="ccon" class="fa-solid fa-star"></i>
+            <i id="ccon" class="fa-solid fa-star"></i>
+            <i id="ccon"  class="fa-solid fa-star"></i>
+        </div>
+        <div class="textos">
+        <i>De zero a cem eu te dou cem estrelas, porque és uma pessoa com mais qualidades do que defeitos, e mesmo com seus defeitos tens dado o teu melhor para superar todas as suas falhas.</i>
+        <i><p>te dou cem estrelas e se possível fosse, eu te daria o cosmo inteiro com todas as estrelas do universo. mereces muito mais do que isto mamy mas, és a minha estrela, a nossa estrela que bilha independentemente das circunstâcias da vida.</p></i>
+        <i><p>Por isso, sem medo de errar eu digo hoje Fábia da silva és o melhor presente que Deus me deu e por isso sou muito grato a ele, e por isso te dou ao invés de cinco, cem estrelas eu dou!</p></i>
+        </div>
+    
+    
+    
+    </main>
+</body>
+</html>
